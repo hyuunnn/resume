@@ -57,6 +57,7 @@
 #resume-item[
   - Developed and contributed to the backend of the KEEPER club's website at Pusan National University.
   - Utilized Java, Spring Boot, JPA, Spring Data JPA and JUnit5.
+  - Experienced in identifying and reporting vulnerabilities due to API defects.
 ]
 
 #resume-entry(
