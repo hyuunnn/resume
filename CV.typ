@@ -175,7 +175,7 @@ Cyber Conflict Exercise (CCE) Final]],
 #resume-entry(
   title: [#link("https://kookbang.dema.mil.kr/newsWeb/m/20211027/1/BBSMSTR_000000010023/view.do")[
 ROKA Hacking Contest]],
-  location: "Korea Digital Forensic Society",
+  location: "Republic of Korea Army Headquarters",
   date: "Nov 2021",
   description: "Team: 전투휴무, 3rd",
 )
