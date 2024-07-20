@@ -105,7 +105,7 @@
 = Education
 
 #resume-entry(
-  title: "Financial Security Academy",
+  title: [#link("https://www.fsec.or.kr/bbs/detail?menuNo=66&bbsNo=11489")[Financial Security Academy]],
   location: "Seoul, Republic of Korea",
   date: "Jul 2024 - Present",
   description: "Cyber Threat Response and Analysis Track"
