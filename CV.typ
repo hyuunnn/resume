@@ -1,4 +1,4 @@
-#import "@preview/modern-cv:0.4.0": *
+#import "@preview/modern-cv:0.5.0": *
 
 #show: resume.with(
   author: (
@@ -6,6 +6,7 @@
     lastname: "Yi",
     email: "hyuunnnnn@gmail.com",
     phone: "(+1) 111-111-1111",
+    birth: "Jan 18, 2000",
     github: "hyuunnn",
     linkedin: "hyuunnn",
     address: "Manan-gu, Anyang-si, Gyeonggi-do, Republic of Korea",
@@ -106,7 +107,7 @@
 = Education
 
 #resume-entry(
-  title: [#link("https://www.fsec.or.kr/bbs/detail?menuNo=66&bbsNo=11489")[Financial Security Academy]],
+  title: [#link("https://www.fsec.or.kr/bbs/detail?menuNo=66&bbsNo=11489")[Financial Security Academy 2nd]],
   location: "Seoul, Republic of Korea",
   date: "Jul 2024 - Present",
   description: "Cyber Threat Response and Analysis Track"
@@ -136,7 +137,7 @@
 ]
 
 #resume-entry(
-  title: [#link("https://en.wikipedia.org/wiki/Sunrin_Internet_High_School")[Sunrin Internet High School]],
+  title: [#link("https://en.namu.wiki/w/%EC%84%A0%EB%A6%B0%EC%9D%B8%ED%84%B0%EB%84%B7%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90")[Sunrin Internet High School]],
   location: "Seoul, Republic of Korea",
   date: "Mar 2016 - Feb 2019",
   description: "Graduated, Information Technology",
@@ -145,10 +146,32 @@
 = Honors and Awards
 
 #resume-entry(
+  title: [#link("https://dfchallenge.org/digital-forensics-challenge-2024-ranking/")[Digital Forensic Challenge]],
+  location: "Korea Institute of Information Security & Cryptology",
+  date: "Nov 2024",
+  description: "Team:LuckyVicky, 1st (Winner)",
+)
+
+#resume-entry(
+  title: [#link("https://www.mk.co.kr/news/business/10817246")[KOSPO Information Security Competition]],
+  location: "KOSPO (Korea Southern Power Co., Ltd.)",
+  date: "Nov 2024",
+  description: "Team: 팀명정해줘, Encouragement Prize",
+)
+
+#resume-entry(
   title: [#link("https://www.newspeach.com/news/articleView.html?idxno=3630")[HackTheon Sejong]],
   location: "Sejong City",
   date: "Jun 2024",
   description: "Team: QWER, Excellence Prize",
+)
+
+#resume-entry(
+  title: [#link("https://kdfs.jams.or.kr/co/com/EgovMenu.kci?s_url=/po/community/notice/noticeView.kci&s_MenuId=MENU-000000000061000&notiSeq=000000038754")[
+KDFS Digital Forensic Challenge]],
+  location: "Korea Digital Forensic Society",
+  date: "Nov 2023",
+  description: "Team: LastDance, Top Prize",
 )
 
 #resume-entry(
@@ -162,7 +185,14 @@
   title: [#link("https://dfchallenge.org/2022-rank/")[Digital Forensic Challenge]],
   location: "Korea Institute of Information Security & Cryptology",
   date: "Nov 2022",
-  description: "Team:asserTiVe, 1st",
+  description: "Team:asserTiVe, 1st (Winner)",
+)
+
+#resume-entry(
+  title: [#link("https://www.etnews.com/20221025000122?SNS=00002")[Financial Institutes' Event on Security Threat Analysis (FIESTA)]],
+  location: "Financial Security Institute (FSI)",
+  date: "Jun 2024",
+  description: "Team: 민간인(진), Encouragement Prize",
 )
 
 #resume-entry(
@@ -178,7 +208,7 @@ Cyber Conflict Exercise (CCE) Final]],
 ROKA Hacking Contest]],
   location: "Republic of Korea Army Headquarters",
   date: "Nov 2021",
-  description: "Team: 전투휴무, 3rd",
+  description: "Team: 전투휴무, Encouragement Prize",
 )
 
 #resume-entry(
@@ -186,7 +216,7 @@ ROKA Hacking Contest]],
 KDFS Digital Forensic Challenge]],
   location: "Korea Digital Forensic Society",
   date: "Dec 2020",
-  description: "Team: Enough1day, 2nd",
+  description: "Team: Enough1day, Excellence Prize",
 )
 
 #resume-entry(
@@ -201,6 +231,20 @@ KDFS Digital Forensic Challenge]],
   location: "Korea Institute of Information Security & Cryptology",
   date: "Nov 2019",
   description: "Team:Defenit, 3rd",
+)
+
+#resume-entry(
+  title: [#link("https://www.boannews.com/media/view.asp?idx=73163")[Youth Information Security Festival]],
+  location: "Soonchunhyang University",
+  date: "Sep 2018",
+  description: "Encouragement Prize",
+)
+
+#resume-entry(
+  title: [#link("https://www.boannews.com/media/view.asp?idx=57881")[Information Security Olympiad]],
+  location: "Seoul Hoseo Occupational Training College",
+  date: "Oct 2017",
+  description: "Gold Prize",
 )
 
 = Teaching
